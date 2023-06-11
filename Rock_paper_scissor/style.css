@@ -1,0 +1,31 @@
+:root{
+    --color-bg:#34ebeb;
+    --color-border:#4934eb;
+    --transition:all 400ms ease;
+    --width-btn:10rem;
+    --height:5rem;
+    --cursor:pointer;
+
+}
+body{
+    margin:0;
+    padding:0;
+    display:grid;
+    gap:1.6rem;
+    padding-left:4rem;
+}
+button{
+    background:var(--color-bg);
+    border:1.3rem solid transparent;
+    color:var(--color-border);
+    border-radius: 2rem;
+    width:var(--width-btn);
+    height:var(--height);
+    cursor:var(--cursor);
+    transition: var(--transition);
+}
+
+button:hover{
+    border:0.1rem solid var(--color-border);
+}
+

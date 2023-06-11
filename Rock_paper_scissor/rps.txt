@@ -1,0 +1,9 @@
+Function used:
+1. .getElementById()
+2. .querySelectorAll()
+3. .forEach()
+4. .addEventListener()
+5. .innerHTML
+6. e.target.id
+7. Math.floor()
+8. Math.random()
